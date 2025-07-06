@@ -1,0 +1,41 @@
+# Core ADK Dependencies
+google-adk>=1.4.1
+google-genai
+google-cloud-aiplatform
+google-cloud-secret-manager
+
+# Web Framework
+fastapi
+uvicorn[standard]
+
+# Data Validation
+pydantic
+
+# Observability
+opentelemetry-api
+opentelemetry-exporter-cloud-trace
+opentelemetry-sdk
+
+# Development Dependencies
+pytest>=7.0.0
+pytest-asyncio
+pytest-cov
+pyink
+isort
+mypy
+
+# Utilities
+click
+structlog
+python-dotenv
+
+# Optional Dependencies for Advanced Features
+anthropic
+langchain-community
+beautifulsoup4
+pandas
+sqlalchemy
+psycopg2-binary
+
+# Security
+cryptography
